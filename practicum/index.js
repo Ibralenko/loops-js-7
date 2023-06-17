@@ -45,9 +45,9 @@ const array = [1, 2, 3, 4, 5];
 // Выведите сумму всех элементов массива используя цикл for
 const numbers = [1, 2, 3, 4, 5];
 sum = 0;
-for (let i = 0; i <= numbers.length; i++){
-sum += i;
-console.log(7777777, sum)
+for (let i = 0; i < numbers.length; i++){
+sum += numbers[i];
+console.log('седьмое задание', sum)
 }
 
 //Задание 8
