@@ -84,6 +84,12 @@ for (let element of array2){
 // Выведите каждое слово из массива строк в консоль
 // Подсказка: вам понадобится метод массивов split
 const sentences = ['Hello, world!', 'How are you?'];
+/*for(let i =0 ; i <= sentences.length; i++){
+const words = sentences[i].split(' ');
+words.forEach((element) => {
+console.log('11 задание', element)
+})
+}*/
 
 //Задание 12
 // Выведите сумму всех элементов массива используя цикл for..of. Массив numbers объявлен в Задании 7
@@ -97,9 +103,17 @@ for (let number of numbers2) {
 //Задание 13
 // Выведите длину каждого слова из массива строк в консоль
 const list = ['apple', 'banana', 'cherry'];
+for (let element of list){
+  console.log('13 задание', element.length);
+}
 
 //Задание 14
-// Преобразуйте массив каждый элемент массива words в верхний регистр
+// Преобразуйте массив каждый элемент массива words в верхний
+const words4 = ['Hello', 'world', 'string']
+for (let element of words4){
+  const bigLetters = element.toUpperCase();
+  console.log('14 задание', bigLetters);
+};
 
 //Задание 15
 // Подсчитайте количество гласных букв в строке
@@ -111,12 +125,24 @@ const vowels = ['a', 'e', 'i', 'o', 'u'];
 //Задание 16
 // Объедините все строки массива в одну строку с пробелами между ними
 const words = ['Hello', 'world', '!'];
+const string = words.join(' ');
+console.log('16 задание', string)
 
 //Задание 17
 // Выведите числа от 1 до 10 в консоль используя цикл while
+/*let i = 1 ;
+while (i <= 10) {
+  console.log('17 задание', i);
+  i++
+};*/
 
 //Задание 18
 // Выведите числа от 1 до 10 в консоль в обратном порядке используя цикл while
+let i = 10;
+while (i >= 1){
+  console.log(i)
+  i--;
+}
 
 //Задание 19
 // Проверьте, все ли элементы массива являются положительными числами используя цикл while
@@ -127,7 +153,6 @@ let allPositive = true;
 //Задание 20
 // Выведите значения элементов массива до первого отрицательного числа используя цикл do...while
 const random = [2, 4, 6, -3, 8, 10];
-
 //Задание 21
 // Выведите числа от 1 до 100, пропуская числа, которые делятся на 3 используя цикл do...while
 
