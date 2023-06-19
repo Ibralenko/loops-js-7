@@ -40,14 +40,17 @@ for (let i = 1; i <= 100; i++){
 //Задание 6
 // Выведите все элементы массива в консоль используя цикл for
 const array = [1, 2, 3, 4, 5];
+for (let i = 1; i <= array.length; i++ ){
+  console.log('шестое задание', i)
+}
 
 //Задание 7
 // Выведите сумму всех элементов массива используя цикл for
 const numbers = [1, 2, 3, 4, 5];
-sum = 0;
+let sum2 = 0;
 for (let i = 0; i < numbers.length; i++){
-sum += numbers[i];
-console.log('седьмое задание', sum)
+sum2 += numbers[i];
+console.log('седьмое задание', sum2)
 }
 
 //Задание 8
@@ -65,8 +68,17 @@ console.log(animals);
 // Выведите символы в строке в консоль
 const str = 'Hello';
 
+for (let letter of str) {
+  console.log(letter);
+};
+
 //Задание 10
 // Выведите все элементы массива в консоль используя цикл for...of. Массив array объявлен в Задании 6
+const array2 = [1, 2, 3, 4, 5];
+
+for (let element of array2){
+  console.log(element);
+}
 
 //Задание 11
 // Выведите каждое слово из массива строк в консоль
@@ -75,6 +87,12 @@ const sentences = ['Hello, world!', 'How are you?'];
 
 //Задание 12
 // Выведите сумму всех элементов массива используя цикл for..of. Массив numbers объявлен в Задании 7
+const numbers2 = [1, 2, 3, 4, 5];
+let sum3 = 0;
+for (let number of numbers2) {
+  sum3 += number ;
+  console.log(sum3);
+}
 
 //Задание 13
 // Выведите длину каждого слова из массива строк в консоль
