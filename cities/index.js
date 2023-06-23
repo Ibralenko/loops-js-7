@@ -16,8 +16,8 @@ const min = Math.min.apply(null, temperatures);
 const max =  Math.max.apply(null, temperatures);
 
 const maxTemp = document.createElement('p');
-maxTemp.textContent = `Максимальная температура: ${max}`;
+maxTemp.textContent = `Максимальная температура: ${max}°С`;
 citiesList.after(maxTemp);
 const minTemp = document.createElement('p');
-minTemp.textContent = `Минимальная температура: ${min}`;
+minTemp.textContent = `Минимальная температура: ${min}°С`;
 citiesList.after(minTemp);
