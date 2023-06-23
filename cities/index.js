@@ -11,3 +11,5 @@ for (let i = 0; i < cities.length; i++) {
     citiesList.append(cityElement);
 };
 
+const minimum = temperatures >= -40;
+const 
