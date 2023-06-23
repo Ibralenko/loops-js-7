@@ -15,9 +15,11 @@ for (let i = 0; i < cities.length; i++) {
 const min = Math.min.apply(null, temperatures);
 const max =  Math.max.apply(null, temperatures);
 
-const maxTemp = document.createElement('p');
+const maxTemp = document.createElement('h2');
 maxTemp.textContent = `Максимальная температура: ${max}°С`;
+maxTemp.classList.add('title-temp');
 citiesList.after(maxTemp);
-const minTemp = document.createElement('p');
+const minTemp = document.createElement('h2');
 minTemp.textContent = `Минимальная температура: ${min}°С`;
+minTemp.classList='title-temp';
 citiesList.after(minTemp);
