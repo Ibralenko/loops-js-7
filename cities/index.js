@@ -11,7 +11,6 @@ for (let i = 0; i < cities.length; i++) {
     citiesList.append(cityElement);
 };
 
-
 const min = Math.min.apply(null, temperatures);
 const max =  Math.max.apply(null, temperatures);
 

@@ -4,7 +4,7 @@ const numbers = [];
   while (i <= 10) {
     numbers.push(i);
     i++;
-  }
+  };
 
 
   for (let i = 0; i < numbers.length; i++) {
@@ -14,7 +14,7 @@ const numbers = [];
     } else {
       numbers[i] = numbers[i] ** 2;
     }
-  }
+  };
 
   numbers.sort((a, b) => b - a);
 
